@@ -1,0 +1,503 @@
+@import url('Oswald.css');
+@import url('Open-Sans.css');
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+img{
+	vertical-align: middle;
+	border:none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,ol,.navbar,.mainmenu {
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+.commonheading{
+	text-align: center;
+	
+}
+.commonmargin{
+	margin-top: 60px;
+}
+.commonheading h2{
+	font-size: 28px;
+	font-weight: 500;
+	font-family: 'Oswald', sans-serif;
+
+}
+.commonheading .abshape {
+    margin-top: -25px;
+    margin-left: -55px;
+}
+.commonheading .serviceshape {
+    margin-top: -25px;
+    margin-left: -95px;
+}
+.commonheading .porshape{
+    margin-top: -25px;
+    margin-left: -90px;
+}
+.commonheading .teamshape{
+    margin-top: -25px;
+    margin-left: -55px;
+}
+.commonheading .testishape{
+	margin-top: -25px;
+    margin-left: -75px;
+}
+/*Common css end*/
+
+.topsocial_bar{
+	padding: 10px;
+	background-color: #0872b9;
+
+}
+
+.topsocial_bar span{
+	font-size: 14px;
+	color: #fff;
+
+}
+
+.tsocial{
+	text-align: right;
+
+}
+
+.tsocial a{
+	margin-left: 15px;
+	color: #fff;
+}
+.tsocial a:hover{
+	color:#353535;
+}
+
+/*Top Social Complete*/
+
+.mainmenu{
+	padding: 20px 0px;
+}
+
+.mainmenu .nav-item{
+	margin-left: 14px;
+	
+}
+
+.mainmenu .nav-item .nav-link{
+	font-size: 14px;
+	color: #353535;
+}
+.mainmenu .nav-item.active .nav-link,
+.mainmenu .nav-item .nav-link:hover{
+	color: #4488c3;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Mainmenu End*/
+
+.heroarea{
+	background:url('../img/banner_bg.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.heroarea .herooverlay{
+	background: rgba(0, 0, 0, .6);
+	padding: 85px 0px;
+}
+.herocontent{
+	text-align: right;
+	color: #fff;
+}
+
+.herocontent h2{
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+.herocontent h1{
+	font-size: 40px;
+	font-weight: 700;
+	font-family: 'Oswald', sans-serif;
+}
+.herocontent p{
+	margin: 30px 0px;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.herocontent .herobtn{}
+.herocontent .herobtn a{
+	padding: 10px 20px;
+	background-color: #0872b9;
+	display: inline-block;
+	color: white;
+	margin-left: 20px;
+	font-size: 14px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.herocontent .herobtn a:hover{
+	background:transparent;
+	border:1px solid #fff;
+}
+
+/*Banner area end*/
+.abimg img{
+	width: 90%;
+	border:1px solid #555;
+}
+
+.aboutArea p{
+	color: #555;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.abcontent .p1{
+	margin-top: 45px;
+}
+
+.abcontent .p2{
+	padding-top: 35px;
+}
+
+
+/*About Area End*/
+
+.servicearea{}
+.seritem{
+	padding: 5px 22px 22px;
+	background: #f1f1f1;
+	transition: 1s;
+	margin-top: 70px;
+}
+
+.sericon{
+	height: 86px;
+	width: 86px;
+	background: #f1f1f1;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:6px solid #ffff;
+	transition: 1s;
+	margin-top: -43px;
+	
+}
+
+.sericon .icon2{
+	height: 70px;
+	width: 70px;
+	background: #f1f1f1;
+	border-radius: 50%;
+	border:2px solid #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.seritem:hover .icon2,
+.seritem:hover .sericon{
+	background: #5bc5f4;
+}
+
+.seritem:hover{
+	box-shadow: 0px 0px 10px #353535;
+	
+}
+
+.servicearea .sercon h3{
+	font-size: 16px;
+	font-family: 'Oswald', sans-serif;
+	color: #353535;
+	font-weight: 500;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.servicearea .sercon p{
+	font-size: 13px;
+	color:#555;
+	margin-top: 20px;
+	letter-spacing: 1px;
+	text-align: center;
+
+}
+
+/*Service End*/
+
+.portfolioarea{}
+
+.portitem{
+	position: relative;
+}
+
+.portitem .portoverlay{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width:100%;
+	background-color: rgba(0,0,0,.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: 3s;
+}
+.portoverlay a{
+	height: 40px;
+	width: 40px;
+	background-color: #5bc5f4;
+	color:#fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	transition: 3s;
+}
+
+.portoverlay a:hover{
+	background: transparent;
+	border:1px solid #fff;
+	transform: rotate(90deg);
+}
+
+.portitem:hover .portoverlay{
+	opacity: 1;
+}
+
+.mt30{
+	margin-top: 30px;
+}
+
+/*Portfolio area End*/
+
+.teamitem{
+	position: relative;
+}
+
+.teamitem .teamoverlay{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width:30%;
+	background-color: rgba(0,0,0,.6);
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: 3s;
+    padding-left: 20px;
+}
+
+
+.teamoverlay a{
+	height: 40px;
+	width: 40px;
+	background-color: #5bc5f4;
+	color:#fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	transition: 3s;
+    margin-top: 30px;
+
+}
+
+.teamoverlay a:hover{
+	background: transparent;
+	border:1px solid #fff;
+}
+
+.teamitem:hover .teamoverlay{
+	opacity: 1;
+}
+
+.teamintro{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 10px;
+}
+
+.teamintro h2{
+	font-size: 16px;
+}
+
+.teamintro h2:hover{
+	color: #5bc5f4;
+}
+   
+.teamintro h4{
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.testimonialarea .testitems{
+	text-align: center;
+}
+
+.testitems .testcon{
+	padding: 20px;
+	background-color: #f1f1f1;
+	margin-top: 37px;
+}
+
+.testitems .tshap{
+	height: 35px;
+	width: 35px;
+	background-color: #f1f1f1;
+	position: relative;
+	top: -25px;
+	left: 50%;
+	transform: rotate(45deg) translate(-50%) ;
+}
+.testcon h3{
+	font-size: 16px;
+	font-family: 'Oswald', sans-serif;
+}
+.testitems .star{
+	color: #5bc5f4;
+	font-size: 13px;
+} 
+
+.testcon h4{
+	font-size: 13px;
+	font-family: 'Oswald', sans-serif;
+}
+
+/*Testimonial area end*/
+.footerArea{
+	background-color: #282828;
+}
+
+.footer_top{
+	margin-top: 60px;
+	padding-top: 35px;
+}
+
+.logo{
+	margin-left: 10px;
+}
+
+.logo .p1{
+	padding-top: 30px;
+	color: #fff;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.logo .p2{
+	padding-top: 35px;
+	color: #fff;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.Contact_Us h3{
+	color: #fff;
+	margin-left: 10px;
+}
+.Contact{
+
+	color: #fff;
+	padding-top: 20px;
+	font-size: 13px;
+}
+
+table tr td{
+	padding: 10px 5px;
+}
+table tr td p{
+	padding: 5px 0px;
+}
+.Contact a{
+	height: 40px;
+	width: 40px;
+	background-color: #5bc5f4;
+	color:#fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	transition: 3s;
+    margin-top: 10px;
+
+}
+.Important_Links{
+	color: #fff;
+	margin-left: 10px;
+}
+
+.Important_Links table tr td a{
+	color: #fff;
+}
+
+.Important_Links table tr td{
+	padding: 5px;
+}
+
+.Important_Links table tr td a:hover{
+	color: #5bc5f4;
+}
+
+.Flickr_Photos{
+	color:#fff;
+	margin-left: 10px;
+}
+
+.Flickr_Photos table .top td img{
+	/*margin: 10px;*/
+}
+.Flickr_Photos table .bottom td img{
+	/*margin-left: 10px;*/
+	/*margin-right: 10px;*/
+	/*margin-bottom: 10px;*/
+	/*margin-top: 10px;*/
+}
+/*Footer bottom part*/
+.footer_bottom{
+	margin-top: 30px;
+	margin-bottom: 5px;
+	border: 1px solid #fff;
+	background: #555555;
+}
+
+.footer_bottom p{
+	text-align: center;
+	color: #fff;
+	padding: 15px 0px;
+	font-family: font-family: 'Open Sans', sans-serif;
+
+}
+
+.footer_bottom span{
+	
+	color: #5bc5f4;
+	font-family:'Oswald', sans-serif;
+}
+

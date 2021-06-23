@@ -1,0 +1,36 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (max-width: 767px) {
+   
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.herocontent{
+	text-align: right;
+	color: #fff;
+	margin-right: 20px;
+}
+	.herocontent h2{
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+.herocontent h1{
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Oswald', sans-serif;
+}
+
+.abcontent{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+}
